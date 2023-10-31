@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>IP CHANGER</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="count">
+        <h2>Click On The Start Button To Scan Your Phone</h2>
+        <button id="start-countdown" class="btn">Start</button>
+        <div id="countdown" style="display: none;"> 10</div>
+        <p style="display: none; color: white; font-weight: 500;">Please be patient</p>
+    </div>
+    <div id="ip-input" class="container">
+        <label for="ip-address">Your IP Address</label><br>
+        <input placeholder="Valid IP address!" class="input" name="text" type="text" id="ip-address"><br>
+        <button class="button" type="submit" id="submit-ip">submit</button>
+        <div id="ip-error">Invalid IP address. Please try again.</div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
